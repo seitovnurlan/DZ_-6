@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		28D0B25929893C5200225D79 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B25829893C5200225D79 /* main.swift */; };
+		28D0B26029893E5C00225D79 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B25F29893E5C00225D79 /* User.swift */; };
+		28D0B26229893FB800225D79 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B26129893FB800225D79 /* Country.swift */; };
+		28D0B27929895D8700225D79 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B27829895D8700225D79 /* DataBase.swift */; };
+		28D0B27B29896DE500225D79 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0B27A29896DE500225D79 /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		28D0B25529893C5200225D79 /* DZ_#6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DZ_#6"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D0B25829893C5200225D79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28D0B25F29893E5C00225D79 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28D0B26129893FB800225D79 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		28D0B27829895D8700225D79 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		28D0B27A29896DE500225D79 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				28D0B25829893C5200225D79 /* main.swift */,
+				28D0B25F29893E5C00225D79 /* User.swift */,
+				28D0B26129893FB800225D79 /* Country.swift */,
+				28D0B27829895D8700225D79 /* DataBase.swift */,
+				28D0B27A29896DE500225D79 /* Operation.swift */,
 			);
 			path = "DZ_#6";
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D0B26029893E5C00225D79 /* User.swift in Sources */,
+				28D0B26229893FB800225D79 /* Country.swift in Sources */,
+				28D0B27929895D8700225D79 /* DataBase.swift in Sources */,
+				28D0B27B29896DE500225D79 /* Operation.swift in Sources */,
 				28D0B25929893C5200225D79 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

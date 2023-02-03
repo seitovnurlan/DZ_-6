@@ -13,7 +13,7 @@ class DataBase {
     }
     func showInfoAll(_ array:[User]){
         for i in array {
-            print(" ФИО: \(i.firstName) \(i.lastName), \(i.code.rawValue)\(i.phoneNumber)")
+            print(" ФИО: \(i.firstName) \(i.lastName), \(i.code.rawValue)\(i.phoneNumber) \(i.code)")
         }
     }
     func showCountry(_ array:[User], _ name: Country){
